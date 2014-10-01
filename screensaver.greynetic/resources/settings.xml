@@ -1,0 +1,18 @@
+<settings>
+  <setting id="boxes"    label="30000" type="slider" option="int" range="100,100,10000" default="1000"/>
+  <setting id="square"   label="30001" type="bool"   default="false"/>
+  <setting id="maxsizex" label="30002" type="slider" option="int" range="10,10,300" default="200" enable="!eq(-1,true)"/>
+  <setting id="minsizex" label="30003" type="slider" option="int" range="0,10,300" default="0" enable="!eq(-2,true)"/>
+  <setting id="maxsizey" label="30004" type="slider" option="int" range="10,10,300" default="200" enable="!eq(-3,true)"/>
+  <setting id="minsizey" label="30005" type="slider" option="int" range="0,10,300" default="0" enable="!eq(-4,true)"/>
+  <setting id="maxsize"  label="30006" type="slider" option="int" range="0,10,300" default="0" enable="eq(-5,true)"/>
+  <setting id="minsize"  label="30007" type="slider" option="int" range="0,10,300" default="200" enable="eq(-6,true)"/>
+  <setting id="minalpha" label="30008" type="slider" option="int" range="0,1,255" default="0"/>
+  <setting id="maxalpha" label="30009" type="slider" option="int" range="0,1,255" default="255"/>
+  <setting id="minred"   label="30010" type="slider" option="int" range="0,1,255" default="0"/>
+  <setting id="maxred"   label="30011" type="slider" option="int" range="0,1,255" default="255"/>
+  <setting id="mingreen" label="30012" type="slider" option="int" range="0,1,255" default="0"/>
+  <setting id="maxgreen" label="30013" type="slider" option="int" range="0,1,255" default="255"/>
+  <setting id="minblue"  label="30014" type="slider" option="int" range="0,1,255" default="0"/>
+  <setting id="maxblue"  label="30015" type="slider" option="int" range="0,1,255" default="255"/>
+</settings>

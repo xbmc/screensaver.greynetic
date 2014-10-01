@@ -1,0 +1,77 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC Main Translation Project (Frodo)\n"
+"Report-Msgid-Bugs-To: http://trac.xbmc.org/\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: XBMC Translation Team\n"
+"Language-Team: English (http://www.transifex.com/projects/p/XBMC-Main-Frodo/language/en/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#30000"
+msgid "Number of boxes"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Use squares"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Maximum width"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Minimum width"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Maximum height"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Minimum height"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Maximum size"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Minimum size"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Minimum alpha"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Maximum alpha"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Minimum red"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Maximum red"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Minimum green"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Maximum green"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Minimum blue"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Maximum blue"
+msgstr ""
