@@ -29,7 +29,7 @@
 */
 
 
-#include "xbmc/xbmc_scr_dll.h"
+#include "kodi/xbmc_scr_dll.h"
 
 #include <GL/gl.h>
 #include <stdlib.h>
