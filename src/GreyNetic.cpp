@@ -31,12 +31,13 @@
 
 #include "xbmc_scr_dll.h"
 
-#include <GL/gl.h>
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
 #ifdef WIN32
 #include <d3d11.h>
+#else
+#include <GL/gl.h>
 #endif
 
 #define MAX_BOXES 10000
