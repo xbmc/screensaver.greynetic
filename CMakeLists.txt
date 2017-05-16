@@ -12,6 +12,8 @@ include_directories(${KODI_INCLUDE_DIR})
 
 set(GREYNETIC_SOURCES src/GreyNetic.cpp)
 
+set(GREYNETIC_HEADERS src/GreyNetic.h)
+
 set(DEPLIBS)
 
 build_addon(screensaver.greynetic GREYNETIC DEPLIBS)
