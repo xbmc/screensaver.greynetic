@@ -1,0 +1,22 @@
+Source: kodi-screensaver-greynetic
+Priority: extra
+Maintainer: Nobody <nobody@kodi.tv>
+Build-Depends: debhelper (>= 9.0.0), cmake, kodi-addon-dev,
+               libgles2-mesa-dev [arm64 armhf], libgl1-mesa-dev [i386 amd64]
+Standards-Version: 3.9.5
+Section: libs
+Homepage: http://kodi.tv
+
+Package: kodi-screensaver-greynetic
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Greynetic screensaver for Kodi
+ Greynetic screensaver for Kodi
+
+Package: kodi-screensaver-greynetic-dbg
+Section: debug
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: debug symbols for Greynetic screensaver for Kodi
+ debug symbols for Greynetic screensaver for Kodi
