@@ -350,13 +350,24 @@ void CScreensaverGreyNetic::Render()
   xa[0] = rand()%m_iWidth;
   ya[0] = rand()%m_iHeight;
 
-  ha[0] = rand() % (MaxSizeY - MinSizeY) + MinSizeY;
-  wa[0] = rand() % (MaxSizeX - MinSizeX) + MinSizeX;
-
-  if(MakeSquares)
+  if (!MakeSquares)
   {
-    ha[0] = rand() % (MaxSquareSize - MinSquareSize) + MinSquareSize;
-    wa[0] = ha[0];
+    if (MaxSizeY != MinSizeY)
+      ha[0] = rand() % (MaxSizeY - MinSizeY) + MinSizeY;
+    else
+      ha[0] = MaxSizeY;
+
+    if (MaxSizeX != MinSizeX)
+      wa[0] = rand() % (MaxSizeX - MinSizeX) + MinSizeX;
+    else
+      wa[0] = MaxSizeX;
+  }
+  else
+  {
+    if (MaxSquareSize != MinSquareSize)
+      wa[0] = ha[0] = rand() % (MaxSquareSize - MinSquareSize) + MinSquareSize;
+    else
+      wa[0] = ha[0] = MaxSquareSize;
   }
 
   if(JoinedSizeY)
