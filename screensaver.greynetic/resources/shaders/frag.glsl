@@ -2,9 +2,9 @@
 #define lowp
 #endif
 
-varying lowp vec4 m_col;
+varying lowp vec4 v_color;
 
 void main ()
 {
-  gl_FragColor = m_col;
+  gl_FragColor = v_color;
 }
