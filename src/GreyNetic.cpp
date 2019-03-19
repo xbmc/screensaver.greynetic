@@ -263,8 +263,8 @@ CScreensaverGreyNetic::~CScreensaverGreyNetic()
 bool CScreensaverGreyNetic::Start()
 {
 #ifndef WIN32
-  if (!LoadShaderFiles(kodi::GetAddonPath("resources/shaders/vert.glsl"),
-                       kodi::GetAddonPath("resources/shaders/frag.glsl")))
+  if (!LoadShaderFiles(kodi::GetAddonPath("resources/shaders/" GL_TYPE_STRING "/vert.glsl"),
+                       kodi::GetAddonPath("resources/shaders/" GL_TYPE_STRING "/frag.glsl")))
   {
     kodi::Log(ADDON_LOG_ERROR, "Failed to load GL shaders");
     return false;
