@@ -1,6 +1,4 @@
-#ifndef GL_ES
-#define lowp
-#endif
+#version 100
 
 varying lowp vec4 v_color;
 
