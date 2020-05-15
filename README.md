@@ -2,6 +2,7 @@
 
 This is a [Kodi](http://kodi.tv) screensaver addon.
 
+[![License: GPL-2.0-or-later](https://img.shields.io/badge/License-GPL%20v2+-blue.svg)](LICENSE.md)
 [![Build Status](https://travis-ci.org/xbmc/screensaver.greynetic.svg?branch=master)](https://travis-ci.org/xbmc/screensaver.greynetic)
 [![Build Status](https://dev.azure.com/teamkodi/binary-addons/_apis/build/status/xbmc.screensaver.greynetic?branchName=Matrix)](https://dev.azure.com/teamkodi/binary-addons/_build/latest?definitionId=44&branchName=Matrix)
 <!--- [![Build Status](https://ci.appveyor.com/api/projects/status/github/xbmc/screensaver.greynetic?svg=true)](https://ci.appveyor.com/project/xbmc/screensaver.greynetic) -->
