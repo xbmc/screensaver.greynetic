@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="screensaver.greynetic"
-  version="2.3.1"
+  version="2.4.0"
   name="Greynetic"
   provider-name="spiff">
   <requires>@ADDON_DEPENDS@</requires>
@@ -9,7 +9,9 @@
     point="xbmc.ui.screensaver"
     library_@PLATFORM@="@LIBRARY_FILENAME@"/>
   <extension point="xbmc.addon.metadata">
+    <summary lang="de_DE">Zeichnet zufällige Farbrechtecke</summary>
     <summary lang="en_GB">Draw random color rectangles</summary>
+    <description lang="de_DE">Farbige und transparente Rechtecke.</description>
     <description lang="en_GB">Colored and transparent rectangles.</description>
     <platform>@PLATFORM@</platform>
     <license>GPL-2.0-or-later</license>

@@ -1,0 +1,99 @@
+# Kodi Media Center language file
+# Addon Name: Flocks
+# Addon id: screensaver.greynetic
+# Addon Provider: Team Kodi
+msgid ""
+msgstr ""
+"Project-Id-Version: KODI Main\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/screensaver.greynetic/issues/\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: German (Germany) (http://www.transifex.com/projects/p/kodi-main/language/de_DE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#[Consistency] Make terms, settings names, brands and other minutiae, consistent throughout file.
+#[Capitalization] Avoid capitalizing every second word. See http://grammarist.com/capitalization/
+#For example, prefer wording as "This new string" instead of "This New String".
+#[Referencing] If a suitable string already exists, reuse it, making a note of where it's used!
+#[Description / location] For example, "#. Description of some setting" used on "#: xbmc/addons/guidialogaddoninfo.cpp"
+#When writing a description or setting, refer to a setting name in quotes. See existing entries for guidance.
+#For example, "Press \"OK\" for \"All seasons\"" instead of "Press OK for All seasons" after first word.
+
+# Following strings used for addon settings dialog
+
+msgctxt "#30000"
+msgid "General"
+msgstr "Allgemein"
+
+msgctxt "#30001"
+msgid "Colors"
+msgstr "Farben"
+
+msgctxt "#30010"
+msgid "Number of boxes"
+msgstr "Anzahl an Boxen"
+
+msgctxt "#30011"
+msgid "Use squares"
+msgstr "Verwende Quadrate"
+
+msgctxt "#30012"
+msgid "Maximum width"
+msgstr "Maximale Breite"
+
+msgctxt "#30013"
+msgid "Minimum width"
+msgstr "Minimale Breite"
+
+msgctxt "#30014"
+msgid "Maximum height"
+msgstr "Maximale Höhe"
+
+msgctxt "#30015"
+msgid "Minimum height"
+msgstr "Minimale Höhe"
+
+msgctxt "#30016"
+msgid "Maximum size"
+msgstr "Maximale Größe"
+
+msgctxt "#30017"
+msgid "Minimum size"
+msgstr "Minimale Größe"
+
+msgctxt "#30018"
+msgid "Minimum alpha"
+msgstr "Minimales Alpha"
+
+msgctxt "#30019"
+msgid "Maximum alpha"
+msgstr "Maximales Alpha"
+
+msgctxt "#30020"
+msgid "Minimum red"
+msgstr "Minimales Rot"
+
+msgctxt "#30021"
+msgid "Maximum red"
+msgstr "Maximales Rot"
+
+msgctxt "#30022"
+msgid "Minimum green"
+msgstr "Minimales Grün"
+
+msgctxt "#30023"
+msgid "Maximum green"
+msgstr "Maximales Grün"
+
+msgctxt "#30024"
+msgid "Minimum blue"
+msgstr "Minimales Blau"
+
+msgctxt "#30025"
+msgid "Maximum blue"
+msgstr "Maximales Blau"
