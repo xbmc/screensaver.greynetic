@@ -5,9 +5,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/screensaver.greynetic/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-05-02 18:29+0000\n"
+"PO-Revision-Date: 2021-07-26 19:48+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Danish <https://kodi.weblate.cloud/projects/kodi-add-ons-look-and-feel/screensaver-greynetic/da_dk/>\n"
 "Language: da_dk\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.6.1\n"
+"X-Generator: Weblate 4.7.2\n"
 
 #[Consistency] Make terms, settings names, brands and other minutiae, consistent throughout file.
 #[Capitalization] Avoid capitalizing every second word. See http://grammarist.com/capitalization/
@@ -31,68 +31,68 @@ msgstr "Generel"
 
 msgctxt "#30001"
 msgid "Colors"
-msgstr ""
+msgstr "Farver"
 
 msgctxt "#30010"
 msgid "Number of boxes"
-msgstr ""
+msgstr "Antal bokse"
 
 msgctxt "#30011"
 msgid "Use squares"
-msgstr ""
+msgstr "Brug kvadrater"
 
 msgctxt "#30012"
 msgid "Maximum width"
-msgstr ""
+msgstr "Maksimal bredde"
 
 msgctxt "#30013"
 msgid "Minimum width"
-msgstr ""
+msgstr "Minimum bredde"
 
 msgctxt "#30014"
 msgid "Maximum height"
-msgstr ""
+msgstr "Maksimal højde"
 
 msgctxt "#30015"
 msgid "Minimum height"
-msgstr ""
+msgstr "Minimum højde"
 
 msgctxt "#30016"
 msgid "Maximum size"
-msgstr ""
+msgstr "Maksimal størrelse"
 
 msgctxt "#30017"
 msgid "Minimum size"
-msgstr ""
+msgstr "Minimum størrelse"
 
 msgctxt "#30018"
 msgid "Minimum alpha"
-msgstr ""
+msgstr "Minimum alpha"
 
 msgctxt "#30019"
 msgid "Maximum alpha"
-msgstr ""
+msgstr "Maksimal alpha"
 
 msgctxt "#30020"
 msgid "Minimum red"
-msgstr ""
+msgstr "Minimum rød"
 
 msgctxt "#30021"
 msgid "Maximum red"
-msgstr ""
+msgstr "Maksimal rød"
 
 msgctxt "#30022"
 msgid "Minimum green"
-msgstr ""
+msgstr "Minimum grøn"
 
 msgctxt "#30023"
 msgid "Maximum green"
-msgstr ""
+msgstr "Maksimal grøn"
 
 msgctxt "#30024"
 msgid "Minimum blue"
-msgstr ""
+msgstr "Minimum blå"
 
 msgctxt "#30025"
 msgid "Maximum blue"
-msgstr ""
+msgstr "Maksimal blå"
