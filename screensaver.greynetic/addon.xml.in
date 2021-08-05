@@ -18,8 +18,10 @@
       <screenshot>resources/screenshot-02.jpg</screenshot>
       <screenshot>resources/screenshot-03.png</screenshot>
     </assets>
+    <summary lang="da_DK">Tegn tilfældige farverektangler</summary>
     <summary lang="de_DE">Zeichnet zufällige Farbrechtecke</summary>
     <summary lang="en_GB">Draw random color rectangles</summary>
+    <description lang="da_DK">Farvede og gennemsigtige rektangler.</description>
     <description lang="de_DE">Farbige und transparente Rechtecke.</description>
     <description lang="en_GB">Colored and transparent rectangles.</description>
   </extension>
