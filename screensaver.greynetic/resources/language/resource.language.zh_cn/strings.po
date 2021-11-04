@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-09-17 03:30+0000\n"
+"PO-Revision-Date: 2021-11-04 17:54+0000\n"
 "Last-Translator: taxigps <taxigps@sina.com>\n"
 "Language-Team: Chinese (China) <https://kodi.weblate.cloud/projects/kodi-add-ons-look-and-feel/screensaver-greynetic/zh_cn/>\n"
 "Language: zh_cn\n"
@@ -15,15 +15,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.8.1\n"
 
 msgctxt "Addon Summary"
 msgid "Draw random color rectangles"
-msgstr ""
+msgstr "绘制随机彩色矩形"
 
 msgctxt "Addon Description"
 msgid "Colored and transparent rectangles."
-msgstr ""
+msgstr "多彩透明矩形。"
 
 # [Consistency] Make terms, settings names, brands and other minutiae, consistent throughout file.
 # [Capitalization] Avoid capitalizing every second word. See http://grammarist.com/capitalization/
@@ -39,68 +39,68 @@ msgstr "常规"
 
 msgctxt "#30001"
 msgid "Colors"
-msgstr ""
+msgstr "颜色"
 
 msgctxt "#30010"
 msgid "Number of boxes"
-msgstr ""
+msgstr "方块数量"
 
 msgctxt "#30011"
 msgid "Use squares"
-msgstr ""
+msgstr "使用正方形"
 
 msgctxt "#30012"
 msgid "Maximum width"
-msgstr ""
+msgstr "最大宽度"
 
 msgctxt "#30013"
 msgid "Minimum width"
-msgstr ""
+msgstr "最小宽度"
 
 msgctxt "#30014"
 msgid "Maximum height"
-msgstr ""
+msgstr "最大高度"
 
 msgctxt "#30015"
 msgid "Minimum height"
-msgstr ""
+msgstr "最小高度"
 
 msgctxt "#30016"
 msgid "Maximum size"
-msgstr ""
+msgstr "最大尺寸"
 
 msgctxt "#30017"
 msgid "Minimum size"
-msgstr ""
+msgstr "最小尺寸"
 
 msgctxt "#30018"
 msgid "Minimum alpha"
-msgstr ""
+msgstr "最小 alpha"
 
 msgctxt "#30019"
 msgid "Maximum alpha"
-msgstr ""
+msgstr "最大 alpha"
 
 msgctxt "#30020"
 msgid "Minimum red"
-msgstr ""
+msgstr "最小红色"
 
 msgctxt "#30021"
 msgid "Maximum red"
-msgstr ""
+msgstr "最大红色"
 
 msgctxt "#30022"
 msgid "Minimum green"
-msgstr ""
+msgstr "最小绿色"
 
 msgctxt "#30023"
 msgid "Maximum green"
-msgstr ""
+msgstr "最大绿色"
 
 msgctxt "#30024"
 msgid "Minimum blue"
-msgstr ""
+msgstr "最小蓝色"
 
 msgctxt "#30025"
 msgid "Maximum blue"
-msgstr ""
+msgstr "最大蓝色"
