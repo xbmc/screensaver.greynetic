@@ -21,8 +21,10 @@
     <summary lang="da_DK">Tegn tilfældige farverektangler</summary>
     <summary lang="de_DE">Zeichnet zufällige Farbrechtecke</summary>
     <summary lang="en_GB">Draw random color rectangles</summary>
+    <summary lang="zh_CN">绘制随机彩色矩形</summary>
     <description lang="da_DK">Farvede og gennemsigtige rektangler.</description>
     <description lang="de_DE">Farbige und transparente Rechtecke.</description>
     <description lang="en_GB">Colored and transparent rectangles.</description>
+    <description lang="zh_CN">多彩透明矩形。</description>
   </extension>
 </addon>
