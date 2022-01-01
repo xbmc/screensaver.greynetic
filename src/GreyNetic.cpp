@@ -164,7 +164,7 @@ void InitDXStuff(void)
 }
 #endif
 
-class ATTRIBUTE_HIDDEN CScreensaverGreyNetic
+class ATTR_DLL_LOCAL CScreensaverGreyNetic
   : public kodi::addon::CAddonBase,
     public kodi::addon::CInstanceScreensaver
 #ifndef WIN32
@@ -210,21 +210,21 @@ CScreensaverGreyNetic::CScreensaverGreyNetic()
   m_iWidth = Width();
   m_iHeight = Height();
 
-  NumberOfBoxes = kodi::GetSettingInt("boxes");
-  MakeSquares = kodi::GetSettingBoolean("square");
-  MaxSizeX = kodi::GetSettingInt("maxsizex");
-  MaxSizeY = kodi::GetSettingInt("maxsizey");
-  MinSizeX = kodi::GetSettingInt("minsizex");
-  MinSizeY = kodi::GetSettingInt("minsizey");
-  MinSquareSize = kodi::GetSettingInt("minsize");
-  MaxSquareSize = kodi::GetSettingInt("maxsize");
-  MinAlpha = kodi::GetSettingInt("minalpha");
-  MinRed = kodi::GetSettingInt("minred");
-  MaxRed = kodi::GetSettingInt("maxred");
-  MinGreen = kodi::GetSettingInt("mingreen");
-  MaxGreen = kodi::GetSettingInt("maxgreen");
-  MinBlue = kodi::GetSettingInt("minblue");
-  MaxBlue = kodi::GetSettingInt("maxblue");
+  NumberOfBoxes = kodi::addon::GetSettingInt("boxes");
+  MakeSquares = kodi::addon::GetSettingBoolean("square");
+  MaxSizeX = kodi::addon::GetSettingInt("maxsizex");
+  MaxSizeY = kodi::addon::GetSettingInt("maxsizey");
+  MinSizeX = kodi::addon::GetSettingInt("minsizex");
+  MinSizeY = kodi::addon::GetSettingInt("minsizey");
+  MinSquareSize = kodi::addon::GetSettingInt("minsize");
+  MaxSquareSize = kodi::addon::GetSettingInt("maxsize");
+  MinAlpha = kodi::addon::GetSettingInt("minalpha");
+  MinRed = kodi::addon::GetSettingInt("minred");
+  MaxRed = kodi::addon::GetSettingInt("maxred");
+  MinGreen = kodi::addon::GetSettingInt("mingreen");
+  MaxGreen = kodi::addon::GetSettingInt("maxgreen");
+  MinBlue = kodi::addon::GetSettingInt("minblue");
+  MaxBlue = kodi::addon::GetSettingInt("maxblue");
 
 #ifdef WIN32
   g_pContext = reinterpret_cast<ID3D11DeviceContext*>(Device());
@@ -250,8 +250,8 @@ CScreensaverGreyNetic::~CScreensaverGreyNetic()
 bool CScreensaverGreyNetic::Start()
 {
 #ifndef WIN32
-  if (!LoadShaderFiles(kodi::GetAddonPath("resources/shaders/" GL_TYPE_STRING "/vert.glsl"),
-                       kodi::GetAddonPath("resources/shaders/" GL_TYPE_STRING "/frag.glsl")))
+  if (!LoadShaderFiles(kodi::addon::GetAddonPath("resources/shaders/" GL_TYPE_STRING "/vert.glsl"),
+                       kodi::addon::GetAddonPath("resources/shaders/" GL_TYPE_STRING "/frag.glsl")))
   {
     kodi::Log(ADDON_LOG_ERROR, "Failed to load GL shaders");
     return false;
