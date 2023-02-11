@@ -5,24 +5,25 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/screensaver.greynetic/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-09-08 18:14+0000\n"
+"Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
+"Language-Team: Italian <https://kodi.weblate.cloud/projects/kodi-add-ons-look-and-feel/screensaver-greynetic/it_it/>\n"
 "Language: it_it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14\n"
 
 msgctxt "Addon Summary"
 msgid "Draw random color rectangles"
-msgstr ""
+msgstr "Disegna rettangoli di colore casuali"
 
 msgctxt "Addon Description"
 msgid "Colored and transparent rectangles."
-msgstr ""
+msgstr "Rettangoli colorati e trasparenti."
 
 # [Consistency] Make terms, settings names, brands and other minutiae, consistent throughout file.
 # [Capitalization] Avoid capitalizing every second word. See http://grammarist.com/capitalization/
@@ -34,72 +35,72 @@ msgstr ""
 # Following strings used for addon settings dialog
 msgctxt "#30000"
 msgid "General"
-msgstr ""
+msgstr "Generale"
 
 msgctxt "#30001"
 msgid "Colors"
-msgstr ""
+msgstr "Colori"
 
 msgctxt "#30010"
 msgid "Number of boxes"
-msgstr ""
+msgstr "Numero di scatole"
 
 msgctxt "#30011"
 msgid "Use squares"
-msgstr ""
+msgstr "Usa i quadrati"
 
 msgctxt "#30012"
 msgid "Maximum width"
-msgstr ""
+msgstr "Larghezza massima"
 
 msgctxt "#30013"
 msgid "Minimum width"
-msgstr ""
+msgstr "Larghezza minima"
 
 msgctxt "#30014"
 msgid "Maximum height"
-msgstr ""
+msgstr "Altezza massima"
 
 msgctxt "#30015"
 msgid "Minimum height"
-msgstr ""
+msgstr "Altezza minima"
 
 msgctxt "#30016"
 msgid "Maximum size"
-msgstr ""
+msgstr "Dimensione massima"
 
 msgctxt "#30017"
 msgid "Minimum size"
-msgstr ""
+msgstr "Dimensione minima"
 
 msgctxt "#30018"
 msgid "Minimum alpha"
-msgstr ""
+msgstr "Alfa minimo"
 
 msgctxt "#30019"
 msgid "Maximum alpha"
-msgstr ""
+msgstr "Alfa massimo"
 
 msgctxt "#30020"
 msgid "Minimum red"
-msgstr ""
+msgstr "Rosso minimo"
 
 msgctxt "#30021"
 msgid "Maximum red"
-msgstr ""
+msgstr "Rosso massimo"
 
 msgctxt "#30022"
 msgid "Minimum green"
-msgstr ""
+msgstr "Verde minimo"
 
 msgctxt "#30023"
 msgid "Maximum green"
-msgstr ""
+msgstr "Verde massimo"
 
 msgctxt "#30024"
 msgid "Minimum blue"
-msgstr ""
+msgstr "Blu minimo"
 
 msgctxt "#30025"
 msgid "Maximum blue"
-msgstr ""
+msgstr "Blu massimo"
