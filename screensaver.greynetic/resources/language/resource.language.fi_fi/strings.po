@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-08-13 05:14+0000\n"
+"PO-Revision-Date: 2023-03-22 11:16+0000\n"
 "Last-Translator: Oskari Lavinto <olavinto@protonmail.com>\n"
 "Language-Team: Finnish <https://kodi.weblate.cloud/projects/kodi-add-ons-look-and-feel/screensaver-greynetic/fi_fi/>\n"
 "Language: fi_fi\n"
@@ -15,15 +15,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13\n"
+"X-Generator: Weblate 4.15.2\n"
 
 msgctxt "Addon Summary"
 msgid "Draw random color rectangles"
-msgstr ""
+msgstr "Piirrä satunnaisia värillisiä nelikulmioita"
 
 msgctxt "Addon Description"
 msgid "Colored and transparent rectangles."
-msgstr ""
+msgstr "Värilliset ja läpinäkyvät nelikulmiot."
 
 # [Consistency] Make terms, settings names, brands and other minutiae, consistent throughout file.
 # [Capitalization] Avoid capitalizing every second word. See http://grammarist.com/capitalization/
@@ -43,64 +43,64 @@ msgstr "Värit"
 
 msgctxt "#30010"
 msgid "Number of boxes"
-msgstr ""
+msgstr "Laatikoiden määrä"
 
 msgctxt "#30011"
 msgid "Use squares"
-msgstr ""
+msgstr "Käytä neliöitä"
 
 msgctxt "#30012"
 msgid "Maximum width"
-msgstr ""
+msgstr "Enimmäisleveys"
 
 msgctxt "#30013"
 msgid "Minimum width"
-msgstr ""
+msgstr "Vähimmäisleveys"
 
 msgctxt "#30014"
 msgid "Maximum height"
-msgstr ""
+msgstr "Enimmäiskorkeus"
 
 msgctxt "#30015"
 msgid "Minimum height"
-msgstr ""
+msgstr "Vähimmäiskorkeus"
 
 msgctxt "#30016"
 msgid "Maximum size"
-msgstr ""
+msgstr "Enimmäiskoko"
 
 msgctxt "#30017"
 msgid "Minimum size"
-msgstr ""
+msgstr "Vähimmäiskoko"
 
 msgctxt "#30018"
 msgid "Minimum alpha"
-msgstr ""
+msgstr "Vähimmäisalfa"
 
 msgctxt "#30019"
 msgid "Maximum alpha"
-msgstr ""
+msgstr "Enimmäisalfa"
 
 msgctxt "#30020"
 msgid "Minimum red"
-msgstr ""
+msgstr "Vähimmäispunaisuus"
 
 msgctxt "#30021"
 msgid "Maximum red"
-msgstr ""
+msgstr "Enimmäispunaisuus"
 
 msgctxt "#30022"
 msgid "Minimum green"
-msgstr ""
+msgstr "Vähimmäisvihreys"
 
 msgctxt "#30023"
 msgid "Maximum green"
-msgstr ""
+msgstr "Enimmäisvihreys"
 
 msgctxt "#30024"
 msgid "Minimum blue"
-msgstr ""
+msgstr "Vähimmäissinisyys"
 
 msgctxt "#30025"
 msgid "Maximum blue"
-msgstr ""
+msgstr "Enimmäissinisyys"
