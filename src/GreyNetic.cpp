@@ -191,6 +191,7 @@ private:
 
   glm::mat4 m_projModelMatrix;
 
+  GLuint m_vao = 0;
   GLuint m_vertexVBO = 0;
 
   GLint m_uProjModelMatLoc = -1;
@@ -244,6 +245,10 @@ CScreensaverGreyNetic::~CScreensaverGreyNetic()
   glBindBuffer(GL_ARRAY_BUFFER, 0);
   glDeleteBuffers(1, &m_vertexVBO);
   m_vertexVBO = 0;
+
+#if defined(HAS_GL)
+  glDeleteVertexArrays(1, &m_vao);
+#endif
 #endif
 }
 
@@ -262,6 +267,10 @@ bool CScreensaverGreyNetic::Start()
     kodi::Log(ADDON_LOG_ERROR, "Failed to compile GL shaders");
     return false;
   }
+
+#if defined(HAS_GL)
+  glGenVertexArrays(1, &m_vao);
+#endif
 
   glGenBuffers(1, &m_vertexVBO);
 
@@ -287,6 +296,10 @@ void CScreensaverGreyNetic::Render()
   g_pContext->IASetVertexBuffers(0, 1, &g_pVBuffer, &strides, &offsets);
   g_pContext->PSSetShader(g_pPShader, NULL, 0);
 #else
+#if defined(HAS_GL)
+  glBindVertexArray(m_vao);
+#endif
+
   glBindBuffer(GL_ARRAY_BUFFER, m_vertexVBO);
 
   glVertexAttribPointer(m_aPositionLoc, 3, GL_FLOAT, 0, sizeof(MYCUSTOMVERTEX), BUFFER_OFFSET(offsetof(MYCUSTOMVERTEX, x)));
@@ -376,6 +389,12 @@ void CScreensaverGreyNetic::Render()
 #ifndef WIN32
   glDisableVertexAttribArray(m_aPositionLoc);
   glDisableVertexAttribArray(m_aColorLoc);
+
+  glBindBuffer(GL_ARRAY_BUFFER, 0);
+
+#if defined(HAS_GL)
+  glBindVertexArray(0);
+#endif
 #endif
   return;
 }
