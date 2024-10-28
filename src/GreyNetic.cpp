@@ -282,6 +282,12 @@ void CScreensaverGreyNetic::Stop()
 void CScreensaverGreyNetic::Render()
 {
 #ifdef WIN32
+  ID3D11RenderTargetView* renderTargetView;
+  g_pContext->OMGetRenderTargets(1, &renderTargetView, nullptr);
+  float clearColor[4] = { 0.0f, 0.0f, 0.0f, 1.0f };
+  g_pContext->ClearRenderTargetView(renderTargetView, clearColor);
+  SAFE_RELEASE(renderTargetView);
+
   g_pContext->IASetPrimitiveTopology(D3D11_PRIMITIVE_TOPOLOGY_TRIANGLESTRIP);
   UINT strides = sizeof(MYCUSTOMVERTEX), offsets = 0;
   g_pContext->IASetVertexBuffers(0, 1, &g_pVBuffer, &strides, &offsets);
