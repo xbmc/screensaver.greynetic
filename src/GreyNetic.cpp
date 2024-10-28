@@ -293,6 +293,9 @@ void CScreensaverGreyNetic::Render()
   g_pContext->IASetVertexBuffers(0, 1, &g_pVBuffer, &strides, &offsets);
   g_pContext->PSSetShader(g_pPShader, NULL, 0);
 #else
+  glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
+  glClear(GL_COLOR_BUFFER_BIT);
+
   glBindBuffer(GL_ARRAY_BUFFER, m_vertexVBO);
 
   glVertexAttribPointer(m_aPositionLoc, 3, GL_FLOAT, 0, sizeof(MYCUSTOMVERTEX), BUFFER_OFFSET(offsetof(MYCUSTOMVERTEX, x)));
