@@ -25,6 +25,7 @@
     <summary lang="fi_FI">Piirrä satunnaisia värillisiä nelikulmioita</summary>
     <summary lang="fr_FR">Dessine des rectangles de couleurs aléatoires</summary>
     <summary lang="it_IT">Disegna rettangoli di colore casuali</summary>
+    <summary lang="sv_SE">Ritar rektanglar i slumpmässig färg</summary>
     <summary lang="zh_CN">绘制随机彩色矩形</summary>
     <description lang="da_DK">Farvede og gennemsigtige rektangler.</description>
     <description lang="de_DE">Farbige und transparente Rechtecke.</description>
@@ -33,6 +34,7 @@
     <description lang="fi_FI">Värilliset ja läpinäkyvät nelikulmiot.</description>
     <description lang="fr_FR">Rectangles colorés et transparents.</description>
     <description lang="it_IT">Rettangoli colorati e trasparenti.</description>
+    <description lang="sv_SE">Färgade och transparenta rektanglar.</description>
     <description lang="zh_CN">多彩透明矩形。</description>
   </extension>
 </addon>
