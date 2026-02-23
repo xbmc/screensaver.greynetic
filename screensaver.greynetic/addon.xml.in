@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="screensaver.greynetic"
-  version="22.0.4"
+  version="22.0.5"
   name="Greynetic"
   provider-name="spiff">
   <requires>@ADDON_DEPENDS@</requires>
