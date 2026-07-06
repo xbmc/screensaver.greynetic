@@ -5,25 +5,25 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/screensaver.greynetic/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-05-20 22:29+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"PO-Revision-Date: 2026-07-06 18:02+0000\n"
+"Last-Translator: Michal Várady <miko.vaji@gmail.com>\n"
 "Language-Team: Czech <https://kodi.weblate.cloud/projects/kodi-add-ons-look-and-feel/screensaver-greynetic/cs_cz/>\n"
 "Language: cs_cz\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 2026.7\n"
 
 msgctxt "Addon Summary"
 msgid "Draw random color rectangles"
-msgstr ""
+msgstr "Vykresluje obdélníky náhodných barev"
 
 msgctxt "Addon Description"
 msgid "Colored and transparent rectangles."
-msgstr ""
+msgstr "Barevné a průhledné obdélníky."
 
 # [Consistency] Make terms, settings names, brands and other minutiae, consistent throughout file.
 # [Capitalization] Avoid capitalizing every second word. See http://grammarist.com/capitalization/
@@ -39,68 +39,68 @@ msgstr "Obecné"
 
 msgctxt "#30001"
 msgid "Colors"
-msgstr ""
+msgstr "Barvy"
 
 msgctxt "#30010"
 msgid "Number of boxes"
-msgstr ""
+msgstr "Počet obdélníků"
 
 msgctxt "#30011"
 msgid "Use squares"
-msgstr ""
+msgstr "Používat čtverce"
 
 msgctxt "#30012"
 msgid "Maximum width"
-msgstr ""
+msgstr "Maximální šířka"
 
 msgctxt "#30013"
 msgid "Minimum width"
-msgstr ""
+msgstr "Minimální šířka"
 
 msgctxt "#30014"
 msgid "Maximum height"
-msgstr ""
+msgstr "Maximální výška"
 
 msgctxt "#30015"
 msgid "Minimum height"
-msgstr ""
+msgstr "Minimální výška"
 
 msgctxt "#30016"
 msgid "Maximum size"
-msgstr ""
+msgstr "Maximální velikost"
 
 msgctxt "#30017"
 msgid "Minimum size"
-msgstr ""
+msgstr "Minimální velikost"
 
 msgctxt "#30018"
 msgid "Minimum alpha"
-msgstr ""
+msgstr "Minimální alfa"
 
 msgctxt "#30019"
 msgid "Maximum alpha"
-msgstr ""
+msgstr "Maximální alfa"
 
 msgctxt "#30020"
 msgid "Minimum red"
-msgstr ""
+msgstr "Minimální červená"
 
 msgctxt "#30021"
 msgid "Maximum red"
-msgstr ""
+msgstr "Maximální červená"
 
 msgctxt "#30022"
 msgid "Minimum green"
-msgstr ""
+msgstr "Minimální zelená"
 
 msgctxt "#30023"
 msgid "Maximum green"
-msgstr ""
+msgstr "Maximální zelená"
 
 msgctxt "#30024"
 msgid "Minimum blue"
-msgstr ""
+msgstr "Minimální modrá"
 
 msgctxt "#30025"
 msgid "Maximum blue"
-msgstr ""
+msgstr "Maximální modrá"
