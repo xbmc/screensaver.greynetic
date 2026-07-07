@@ -19,6 +19,7 @@
       <screenshot>resources/screenshot-03.png</screenshot>
     </assets>
     <summary lang="bs_BA">Crtanje pravougaonika nasumičnih boja</summary>
+    <summary lang="cs_CZ">Vykresluje obdélníky náhodných barev</summary>
     <summary lang="da_DK">Tegn tilfældige farverektangler</summary>
     <summary lang="de_DE">Zeichnet zufällige Farbrechtecke</summary>
     <summary lang="en_GB">Draw random color rectangles</summary>
@@ -30,6 +31,7 @@
     <summary lang="sv_SE">Ritar rektanglar i slumpmässig färg</summary>
     <summary lang="zh_CN">绘制随机彩色矩形</summary>
     <description lang="bs_BA">Obojeni i prozirni pravougaonici.</description>
+    <description lang="cs_CZ">Barevné a průhledné obdélníky.</description>
     <description lang="da_DK">Farvede og gennemsigtige rektangler.</description>
     <description lang="de_DE">Farbige und transparente Rechtecke.</description>
     <description lang="en_GB">Colored and transparent rectangles.</description>
